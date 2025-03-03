@@ -19,7 +19,6 @@ body {
   }
 
   .box1 h1 {
-    text-align: center;
     color: rgb(227, 224, 230);
   }
   .box1 a {
@@ -43,7 +42,6 @@ body {
   
   .box2 h3 {
     color: aliceblue;
-    text-align: center;
   }
   .box3 {
     background-color:pink;
@@ -52,10 +50,10 @@ body {
     width: 200px;
     font-size: 15px;
     margin-bottom: 20px;
+
   }
   .box3 h3 {
     color: aliceblue;
-    text-align: center;
   }
   h3~p {
     font-style: italic;
@@ -70,7 +68,6 @@ body {
   }
   .box4 h3 {
     color: aliceblue;
-    text-align: center;
   }
   .box2, .box3, .box4 {
     display: inline-block;
@@ -78,4 +75,12 @@ body {
     width: 300 px;
     vertical-align: top;
   }
-  
+  .box3 > p {
+    color: rgb(97, 88, 218);
+    font-size: 13px;
+  }
+  .card {
+    background-color: rgb(128, 175, 213);
+    border-radius: 20px;
+    
+  }
