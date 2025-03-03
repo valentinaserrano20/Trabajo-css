@@ -3,7 +3,12 @@ body {
     height: 100vh;
     font-size: 24px;
     color: brown;
+    text-align: center;
   }
+  .navegacion {
+    text-align: left;
+  }
+
   .box1 {
     background-color: rgb(128, 175, 213);
     border: solid 0.5px rgba(0, 0, 0, 0.739);
@@ -46,6 +51,7 @@ body {
     border-radius: 10px;
     width: 200px;
     font-size: 15px;
+    margin-bottom: 20px;
   }
   .box3 h3 {
     color: aliceblue;
@@ -54,5 +60,22 @@ body {
   h3~p {
     font-style: italic;
     color: rgb(49, 46, 46);
+  }
+  .box4 {
+    background-color:pink;
+    border: solid 0.5px black;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+  }
+  .box4 h3 {
+    color: aliceblue;
+    text-align: center;
+  }
+  .box2, .box3, .box4 {
+    display: inline-block;
+    margin: auto;
+    width: 300 px;
+    vertical-align: top;
   }
   
