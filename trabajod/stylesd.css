@@ -1,0 +1,14 @@
+
+p {
+    color: blue;
+  }
+  
+  div > p {
+    font-weight: bold;
+  }
+  
+  h2 + p {
+    text-decoration: underline;
+    font-style: italic;
+  }
+  
