@@ -1,0 +1,40 @@
+/** {
+    color:blueviolet;
+    font-style: italic;
+    font-size: 25px;
+}
+p {
+    color: red;
+    font-size: 30px;
+}
+.destacado {
+    font-weight: bold;
+    color: cadetblue;
+    font-size: 25px;
+}
+#importante {
+    font-size: 24px;
+    color: orange;
+}
+*/
+
+h2 ~ p {
+    font-size: 50px;
+    color: green;
+    font-weight: bold;
+}
+
+/*
+
+    div > p {
+    background-color: rgb(236, 174, 216);
+    border: 1px solid black;
+    color:rgb(72, 72, 128)
+}
+    h2 + p {
+    color: blue;
+    font-style: italic;
+
+}
+
+*/

@@ -12,10 +12,6 @@ body {
     margin: auto;
     margin-bottom: 20px;
   }
-div p { 
-    color: black ;
-    font-weight: bold;
-  }  
 
   .box1 h1 {
     text-align: center;
@@ -32,6 +28,7 @@ div p {
     width: 200px;
     border-radius: 10px;
     font-size: 15px;
+    margin-bottom: 20px;
   }
   div a {
     color: beige;
@@ -43,5 +40,19 @@ div p {
     color: aliceblue;
     text-align: center;
   }
-
-
+  .box3 {
+    background-color:pink;
+    border: solid 0.5px black;
+    border-radius: 10px;
+    width: 200px;
+    font-size: 15px;
+  }
+  .box3 h3 {
+    color: aliceblue;
+    text-align: center;
+  }
+  h3~p {
+    font-style: italic;
+    color: rgb(49, 46, 46);
+  }
+  
