@@ -82,5 +82,34 @@ body {
   .card {
     background-color: rgb(128, 175, 213);
     border-radius: 20px;
-    
   }
+
+h3 + p {
+  text-decoration: underline;
+  color: purple;
+}
+
+h2 ~ p {
+  color: red;
+}
+
+.navegacion li {
+  display: inline-block;
+  margin: 10px;
+}
+.navegacion a {
+  text-decoration: none;
+  color: rgb(228, 126, 126);
+  background-color: navy;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.card h1 + p {
+  font-weight: bold;
+  color:white;
+}
+.card > p {
+  font-style: italic;
+  color: black;
+}
